@@ -1,0 +1,9 @@
+.venv/
+config.yaml
+*.session
+*.session-journal
+state.sqlite
+new_tracks.csv
+__pycache__/
+.nicegui/
+state.sqlite-*

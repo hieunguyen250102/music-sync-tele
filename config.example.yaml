@@ -1,0 +1,13 @@
+# Thường không cần sửa tay: mọi thứ chỉnh được trong GUI (app.py) và được lưu lại ở đây.
+api_id: null          # https://my.telegram.org -> API development tools
+api_hash: ''
+music_dirs:
+  - ~/Music
+download_dir: ~/Music/_telegram_new
+have_threshold: 90    # điểm >= ngưỡng này => "Đã có"
+maybe_threshold: 70   # điểm >= ngưỡng này => "Có thể đã có" (bạn tự xem)
+read_tags: true
+groups: []            # id các group, chọn trong tab "Nguồn & nghệ sĩ"
+skip_topics:
+  - General
+artists: {}           # tên chuẩn: [các tên topic ở các group]
